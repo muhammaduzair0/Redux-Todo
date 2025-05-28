@@ -1,13 +1,14 @@
+import AddTodo from "./components/AddTodo";
+import Todos from "./components/Todos";
 
 function App() {
- 
   return (
     <>
-      <div>
-        <h1>Redux Todo</h1>
-        </div>
+      <h1>Redux Todo</h1>
+      <AddTodo />
+      <Todos />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
